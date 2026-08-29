@@ -1,0 +1,1511 @@
+
+########################################################
+#################### alpha = 0x1 ####################
+########################################################
+
+========================================
+alpha = 0x1, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x1, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x1, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   Constant = 1
+|   |   Constant = 0
+
+Number of leaves: 3
+Costs (Average guessing): 1.5
+0-Linear Structures: 0 7 10 13 
+
+========================================
+alpha = 0x1, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x1, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   Constant = 1
+
+Number of leaves: 3
+Costs (Average guessing): 1.5
+0-Linear Structures: 0 6 11 13 
+
+========================================
+alpha = 0x1, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+
+########################################################
+#################### alpha = 0x2 ####################
+########################################################
+
+========================================
+alpha = 0x2, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x2, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x2, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x2, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+2
+|   Constant = 0
+|   4
+|   |   Constant = 0
+|   |   9
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 9 
+
+========================================
+alpha = 0x2, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   Constant = 2
+
+Number of leaves: 3
+Costs (Average guessing): 1.5
+0-Linear Structures: 0 6 11 13 
+
+========================================
+alpha = 0x2, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 15 
+
+
+########################################################
+#################### alpha = 0x3 ####################
+########################################################
+
+========================================
+alpha = 0x3, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x3, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x3, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   Constant = 1
+|   |   Constant = 0
+
+Number of leaves: 3
+Costs (Average guessing): 1.5
+0-Linear Structures: 0 7 10 13 
+
+========================================
+alpha = 0x3, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+2
+|   Constant = 0
+|   4
+|   |   Constant = 0
+|   |   9
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 9 
+
+========================================
+alpha = 0x3, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   Constant = 3
+
+Number of leaves: 3
+Costs (Average guessing): 1.5
+0-Linear Structures: 0 6 11 13 
+
+========================================
+alpha = 0x3, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 15 
+
+
+########################################################
+#################### alpha = 0x4 ####################
+########################################################
+
+========================================
+alpha = 0x4, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+3
+|   4
+|   |   8
+|   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 3 
+
+========================================
+alpha = 0x4, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x4, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+3
+|   6
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 4
+|   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 7 
+
+========================================
+alpha = 0x4, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x4, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+2
+|   Constant = 0
+|   5
+|   |   c
+|   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 13 
+
+========================================
+alpha = 0x4, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 4
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 15 
+
+
+########################################################
+#################### alpha = 0x5 ####################
+########################################################
+
+========================================
+alpha = 0x5, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+3
+|   4
+|   |   8
+|   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 3 
+
+========================================
+alpha = 0x5, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x5, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 5
+|   |   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 7 
+
+========================================
+alpha = 0x5, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x5, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 5
+|   |   |   Constant = 1
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 13 
+
+========================================
+alpha = 0x5, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 4
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 15 
+
+
+########################################################
+#################### alpha = 0x6 ####################
+########################################################
+
+========================================
+alpha = 0x6, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+3
+|   4
+|   |   8
+|   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 3 
+
+========================================
+alpha = 0x6, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x6, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+3
+|   6
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 4
+|   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 7 
+
+========================================
+alpha = 0x6, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+2
+|   Constant = 0
+|   4
+|   |   Constant = 0
+|   |   9
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 9 
+
+========================================
+alpha = 0x6, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 6
+|   |   |   Constant = 2
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 13 
+
+========================================
+alpha = 0x6, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 6
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 15 
+
+
+########################################################
+#################### alpha = 0x7 ####################
+########################################################
+
+========================================
+alpha = 0x7, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+3
+|   4
+|   |   8
+|   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 3 
+
+========================================
+alpha = 0x7, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+Constant = 0
+
+Number of leaves: 1
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 
+
+========================================
+alpha = 0x7, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 5
+|   |   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 7 
+
+========================================
+alpha = 0x7, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+2
+|   Constant = 0
+|   4
+|   |   Constant = 0
+|   |   9
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 9 
+
+========================================
+alpha = 0x7, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 7
+|   |   |   Constant = 3
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 13 
+
+========================================
+alpha = 0x7, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 6
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 15 
+
+
+########################################################
+#################### alpha = 0x8 ####################
+########################################################
+
+========================================
+alpha = 0x8, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+1
+|   2
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = 0
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0x8, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0x8, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+1
+|   Constant = 0
+|   4
+|   |   a
+|   |   |   Constant = 8
+|   |   |   Constant = 0
+|   |   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 10 
+
+========================================
+alpha = 0x8, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+1
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0x8, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+1
+|   6
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = 8
+|   |   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 6 
+
+========================================
+alpha = 0x8, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = 0
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+
+########################################################
+#################### alpha = 0x9 ####################
+########################################################
+
+========================================
+alpha = 0x9, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+1
+|   2
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = 0
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0x9, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0x9, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   4
+|   |   |   Constant = 9
+|   |   |   Constant = 1
+|   |   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 10 
+
+========================================
+alpha = 0x9, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+1
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0x9, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = 9
+|   |   |   Constant = 1
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 6 
+
+========================================
+alpha = 0x9, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = 0
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+
+########################################################
+#################### alpha = 0xa ####################
+########################################################
+
+========================================
+alpha = 0xa, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+1
+|   2
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = 0
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xa, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xa, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+1
+|   Constant = 0
+|   4
+|   |   a
+|   |   |   Constant = 8
+|   |   |   Constant = 0
+|   |   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 10 
+
+========================================
+alpha = 0xa, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+2
+|   Constant = 0
+|   4
+|   |   Constant = 0
+|   |   9
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 2
+|   |   |   |   Constant = a
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xa, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = a
+|   |   |   Constant = 2
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 6 
+
+========================================
+alpha = 0xa, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = a
+|   |   |   |   Constant = 2
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+
+########################################################
+#################### alpha = 0xb ####################
+########################################################
+
+========================================
+alpha = 0xb, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+1
+|   2
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = 0
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xb, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xb, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   4
+|   |   |   Constant = 9
+|   |   |   Constant = 1
+|   |   Constant = 0
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 10 
+
+========================================
+alpha = 0xb, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+2
+|   Constant = 0
+|   4
+|   |   Constant = 0
+|   |   9
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 2
+|   |   |   |   Constant = a
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xb, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = b
+|   |   |   Constant = 3
+
+Number of leaves: 4
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 6 
+
+========================================
+alpha = 0xb, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = a
+|   |   |   |   Constant = 2
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+
+########################################################
+#################### alpha = 0xc ####################
+########################################################
+
+========================================
+alpha = 0xc, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+3
+|   4
+|   |   8
+|   |   |   2
+|   |   |   |   Constant = c
+|   |   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xc, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xc, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = c
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 4
+|   |   Constant = 0
+
+Number of leaves: 6
+Costs (Average guessing): 2
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xc, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+1
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xc, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = c
+|   |   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = 4
+
+Number of leaves: 6
+Costs (Average guessing): 2
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xc, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = c
+|   |   |   |   Constant = 4
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+
+########################################################
+#################### alpha = 0xd ####################
+########################################################
+
+========================================
+alpha = 0xd, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+3
+|   4
+|   |   8
+|   |   |   2
+|   |   |   |   Constant = c
+|   |   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xd, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xd, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 9
+|   |   |   |   Constant = d
+|   |   |   8
+|   |   |   |   Constant = 1
+|   |   |   |   Constant = 5
+|   |   Constant = 0
+
+Number of leaves: 6
+Costs (Average guessing): 2
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xd, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+1
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xd, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = d
+|   |   |   |   Constant = 1
+|   |   |   8
+|   |   |   |   Constant = 9
+|   |   |   |   Constant = 5
+
+Number of leaves: 6
+Costs (Average guessing): 2
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xd, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = c
+|   |   |   |   Constant = 4
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+
+########################################################
+#################### alpha = 0xe ####################
+########################################################
+
+========================================
+alpha = 0xe, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+3
+|   4
+|   |   8
+|   |   |   2
+|   |   |   |   Constant = c
+|   |   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xe, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xe, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 8
+|   |   |   |   Constant = c
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 4
+|   |   Constant = 0
+
+Number of leaves: 6
+Costs (Average guessing): 2
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xe, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+2
+|   Constant = 0
+|   4
+|   |   Constant = 0
+|   |   9
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 2
+|   |   |   |   Constant = a
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xe, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = e
+|   |   |   |   Constant = 2
+|   |   |   8
+|   |   |   |   Constant = a
+|   |   |   |   Constant = 6
+
+Number of leaves: 6
+Costs (Average guessing): 2
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xe, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = e
+|   |   |   |   Constant = 6
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+
+########################################################
+#################### alpha = 0xf ####################
+########################################################
+
+========================================
+alpha = 0xf, Delta = 0x8, delta = 0x3
+
+Binary tree: 
+3
+|   4
+|   |   8
+|   |   |   2
+|   |   |   |   Constant = c
+|   |   |   |   Constant = 4
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xf, Delta = 0x8, delta = 0x5
+
+Binary tree: 
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 8
+|   |   Constant = 0
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xf, Delta = 0x8, delta = 0x7
+
+Binary tree: 
+5
+|   Constant = 0
+|   e
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 9
+|   |   |   |   Constant = d
+|   |   |   8
+|   |   |   |   Constant = 1
+|   |   |   |   Constant = 5
+|   |   Constant = 0
+
+Number of leaves: 6
+Costs (Average guessing): 2
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xf, Delta = 0x8, delta = 0x9
+
+Binary tree: 
+2
+|   Constant = 0
+|   4
+|   |   Constant = 0
+|   |   9
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 2
+|   |   |   |   Constant = a
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xf, Delta = 0x8, delta = 0xd
+
+Binary tree: 
+7
+|   Constant = 0
+|   e
+|   |   Constant = 0
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = f
+|   |   |   |   Constant = 3
+|   |   |   8
+|   |   |   |   Constant = b
+|   |   |   |   Constant = 7
+
+Number of leaves: 6
+Costs (Average guessing): 2
+0-Linear Structures: 0 
+
+========================================
+alpha = 0xf, Delta = 0x8, delta = 0xf
+
+Binary tree: 
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = e
+|   |   |   |   Constant = 6
+
+Number of leaves: 5
+Costs (Average guessing): 1.875
+0-Linear Structures: 0 
+

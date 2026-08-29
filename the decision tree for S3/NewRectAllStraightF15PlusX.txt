@@ -1,0 +1,24 @@
+1 1 9 14 3 3 3 3 2 6 2 9 2 14 2 6 
+-------------------
+0-Linear Structures
+0
+1-Linear Structures
+Binary tree: 
+8
+|   4
+|   |   2
+|   |   |   Constant = 1
+|   |   |   1
+|   |   |   |   Constant = 9
+|   |   |   |   Constant = e
+|   |   Constant = 3
+|   1
+|   |   Constant = 2
+|   |   6
+|   |   |   Constant = 6
+|   |   |   4
+|   |   |   |   Constant = 9
+|   |   |   |   Constant = e
+
+Costs (Average guessing): 2.75
+Costs (Domsize): 4

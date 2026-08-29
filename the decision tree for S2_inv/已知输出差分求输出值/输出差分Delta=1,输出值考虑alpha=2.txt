@@ -1,0 +1,123 @@
+--- Tree for Delta=1, delta=5 ---
+Best tree so far
+Binary tree:
+2
+|   Constant = 0
+|   5
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+|   |   Constant = 0
+
+with costs: 1.75
+Binary tree:
+2
+|   Constant = 0
+|   5
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+|   |   Constant = 0
+
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 5
+###################
+
+--- Tree for Delta=1, delta=7 ---
+Best tree so far
+Binary tree:
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = 2
+|   |   |   Constant = 0
+
+with costs: 1.75
+Binary tree:
+3
+|   Constant = 0
+|   6
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = 2
+|   |   |   Constant = 0
+
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 7
+###################
+
+--- Tree for Delta=1, delta=a ---
+Best tree so far
+Binary tree:
+1
+|   4
+|   |   Constant = 0
+|   |   a
+|   |   |   Constant = 2
+|   |   |   Constant = 0
+|   Constant = 0
+
+with costs: 1.75
+Binary tree:
+1
+|   4
+|   |   Constant = 0
+|   |   a
+|   |   |   Constant = 2
+|   |   |   Constant = 0
+|   Constant = 0
+
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 a
+###################
+
+--- Tree for Delta=1, delta=b ---
+Binary tree:
+Constant = 0
+
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 a b c d e f
+###################
+
+--- Tree for Delta=1, delta=c ---
+Binary tree:
+Constant = 0
+
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 a b c d e f
+###################
+
+--- Tree for Delta=1, delta=e ---
+Best tree so far
+Binary tree:
+1
+|   Constant = 0
+|   6
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+|   |   Constant = 0
+
+with costs: 1.75
+Binary tree:
+1
+|   Constant = 0
+|   6
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 2
+|   |   Constant = 0
+
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 e
+###################
+
+--- Tree for Delta=1, delta=f ---
+Binary tree:
+Constant = 0
+
+Costs (Average guessing): 0
+0-Linear Structures: 0 1 2 3 4 5 6 7 8 9 a b c d e f
+###################

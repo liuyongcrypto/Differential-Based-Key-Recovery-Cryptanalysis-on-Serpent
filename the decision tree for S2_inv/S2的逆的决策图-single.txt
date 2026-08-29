@@ -1,0 +1,639 @@
+-------------------
+Component: 1
+Best tree so far
+Binary tree:
+2
+|   5
+|   |   Constant = 0
+|   |   Constant = 1
+|   9
+|   |   Constant = 1
+|   |   Constant = 0
+
+with costs: 4
+Result:
+Binary tree:
+2
+|   5
+|   |   Constant = 0
+|   |   Constant = 1
+|   9
+|   |   Constant = 1
+|   |   Constant = 0
+
+0-Linear Structures
+0
+13
+1-Linear Structures
+1
+12
+-------------------
+Component: 2
+Best tree so far
+Binary tree:
+1
+|   4
+|   |   2
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   a
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   2
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+with costs: 8
+Best tree so far
+Binary tree:
+7
+|   4
+|   |   Constant = 0
+|   |   a
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   2
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 1
+
+with costs: 6
+Result:
+Binary tree:
+7
+|   4
+|   |   Constant = 0
+|   |   a
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   2
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 1
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: 3
+Best tree so far
+Binary tree:
+1
+|   6
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   2
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+with costs: 8
+Best tree so far
+Binary tree:
+7
+|   6
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   e
+|   |   Constant = 1
+|   |   Constant = 0
+
+with costs: 6
+Result:
+Binary tree:
+7
+|   6
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   e
+|   |   Constant = 1
+|   |   Constant = 0
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: 4
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   c
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   4
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   4
+|   |   2
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   a
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+
+with costs: 8
+Best tree so far
+Binary tree:
+6
+|   5
+|   |   c
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   4
+|   |   Constant = 1
+|   |   9
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+with costs: 6
+Result:
+Binary tree:
+6
+|   5
+|   |   c
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   4
+|   |   Constant = 1
+|   |   9
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: 5
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   6
+|   |   4
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+
+with costs: 8
+Best tree so far
+Binary tree:
+7
+|   8
+|   |   Constant = 1
+|   |   Constant = 0
+|   6
+|   |   4
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+with costs: 6
+Result:
+Binary tree:
+7
+|   8
+|   |   Constant = 1
+|   |   Constant = 0
+|   6
+|   |   4
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: 6
+Best tree so far
+Binary tree:
+3
+|   6
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 1
+|   6
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 0
+
+with costs: 6
+Best tree so far
+Binary tree:
+6
+|   d
+|   |   Constant = 1
+|   |   Constant = 0
+|   5
+|   |   Constant = 0
+|   |   Constant = 1
+
+with costs: 4
+Result:
+Binary tree:
+6
+|   d
+|   |   Constant = 1
+|   |   Constant = 0
+|   5
+|   |   Constant = 0
+|   |   Constant = 1
+
+0-Linear Structures
+0
+7
+1-Linear Structures
+1
+6
+-------------------
+Component: 7
+Best tree so far
+Binary tree:
+2
+|   4
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   4
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 1
+
+with costs: 6
+Best tree so far
+Binary tree:
+4
+|   8
+|   |   Constant = 1
+|   |   Constant = 0
+|   2
+|   |   Constant = 0
+|   |   Constant = 1
+
+with costs: 4
+Result:
+Binary tree:
+4
+|   8
+|   |   Constant = 1
+|   |   Constant = 0
+|   2
+|   |   Constant = 0
+|   |   Constant = 1
+
+0-Linear Structures
+0
+1
+1-Linear Structures
+10
+11
+-------------------
+Component: 8
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   c
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   4
+|   |   a
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   2
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+
+with costs: 8
+Best tree so far
+Binary tree:
+5
+|   4
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   2
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   a
+|   |   Constant = 1
+|   |   Constant = 0
+
+with costs: 6
+Result:
+Binary tree:
+5
+|   4
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   2
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   a
+|   |   Constant = 1
+|   |   Constant = 0
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: 9
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   c
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   6
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+with costs: 8
+Best tree so far
+Binary tree:
+4
+|   2
+|   |   9
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   3
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 1
+
+with costs: 6
+Result:
+Binary tree:
+4
+|   2
+|   |   9
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   3
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 1
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: a
+Best tree so far
+Binary tree:
+1
+|   4
+|   |   a
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   6
+|   |   Constant = 1
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+with costs: 6
+Result:
+Binary tree:
+1
+|   4
+|   |   a
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 0
+|   6
+|   |   Constant = 1
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: b
+Best tree so far
+Binary tree:
+1
+|   6
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 1
+|   4
+|   |   Constant = 0
+|   |   a
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+with costs: 6
+Result:
+Binary tree:
+1
+|   6
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   |   Constant = 1
+|   4
+|   |   Constant = 0
+|   |   a
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: c
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   c
+|   |   Constant = 1
+|   |   Constant = 0
+
+with costs: 6
+Result:
+Binary tree:
+1
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   c
+|   |   Constant = 1
+|   |   Constant = 0
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: d
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   Constant = 0
+|   |   Constant = 1
+|   2
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   4
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+
+with costs: 6
+Result:
+Binary tree:
+1
+|   2
+|   |   Constant = 0
+|   |   Constant = 1
+|   2
+|   |   8
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   4
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: e
+Best tree so far
+Binary tree:
+1
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   2
+|   |   Constant = 1
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+
+with costs: 6
+Result:
+Binary tree:
+1
+|   6
+|   |   Constant = 0
+|   |   c
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   2
+|   |   Constant = 1
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+
+0-Linear Structures
+0
+1-Linear Structures
+-------------------
+Component: f
+Best tree so far
+Binary tree:
+1
+|   4
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 1
+
+with costs: 6
+Result:
+Binary tree:
+1
+|   4
+|   |   Constant = 0
+|   |   8
+|   |   |   Constant = 1
+|   |   |   Constant = 0
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 1
+
+0-Linear Structures
+0
+1-Linear Structures

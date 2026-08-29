@@ -6,7 +6,7 @@ def rol(x, n, bits=32):
     n %= bits
     return ((x << n) | (x >> (bits - n))) & ((1 << bits) - 1)
 
-# 基础全集
+# Base sets
 AAA_sets = [
     [0x3, 0x6, 0x9, 0xa, 0xc, 0xf],
     [0x7, 0x3, 0x6, 0x9, 0xa, 0xb, 0xd],
@@ -23,7 +23,7 @@ BBB_sets = [
     [2, 2, 3, 3, 3, 3]
 ]
 
-# 子集
+# Subsets
 AA_sets = [
     [0x3, 0x6],
     [0x7],
@@ -51,7 +51,7 @@ HM = [1, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16, 16]
 HM_m = [1,7,6,7,4,7,6,7,7,8,7,6,7,4,7,6]
 COUNT_m = 0
 
-# 用一个集合来保存已经跑过的组合，避免 i0, i1 选出来的 A_sets 结构重复而做无用功
+# Use a set to store combinations that have already been processed to avoid redundant work when different i0, i1 selections generate duplicate A_sets structures
 visited_configs = set()
 
 for i0 in range(5):
@@ -60,7 +60,7 @@ for i0 in range(5):
             # for i3 in range(i2+1,5):
                 # for i4 in range(i3+1,5):
             print(i0)
-            # 1. 动态构建本次循环的 12 组输入
+            # 1. Dynamically construct the 12 groups of inputs for the current iteration
             current_loops = []
             for i in range(5):
                 if i == i0 or i == i1 or i== i2:
@@ -68,33 +68,33 @@ for i0 in range(5):
                 else:
                     a_src, b_src = AA_sets[i], BB_sets[i]
 
-                # 关键优化：把 (数值, 对应的B值) 打包成元组，彻底干掉 .index()
+                # Key optimization: pack (value, corresponding B value) into tuples to completely eliminate .index()
                 current_loops.append(list(zip(a_src, b_src)))
 
-            # 转换为 tuple 放入 set 去重，防止不同 i0, i1 生成了完全一样的输入组合
+            # Convert to a tuple and store it in the set to remove duplicate configurations, preventing different i0, i1 combinations from generating exactly the same input combinations
             config_signature = tuple(tuple(item) for item in current_loops)
             if config_signature in visited_configs:
                 continue
             visited_configs.add(config_signature)
 
 
-            # 2. 展开 12 层 product 组合
+            # 2. Expand the 12-level product combinations
             for item0, item1, item2, item3, item4 in product(*current_loops):
 
 
-                # 直接通过解包获取 P 的值
+                # Directly obtain the value of P by unpacking
                 # P = (item0[1] + item1[1] + item2[1] + item3[1] + item4[1] + item5[1] +
                 #      item6[1] + item7[1] + item8[1] + item9[1] + item10[1] + item11[1])
                 #
                 # if P > LIMIT:
                 #     continue
 
-                # 获取真实的 A 密码位值
+                # Obtain the actual A cipher bit values
                 A0, A1, A2, A3, A4 = (
                     item0[0], item1[0], item2[0], item3[0], item4[0]
                 )
 
-                # 注意：保持你原代码中的位拼接顺序
+                # Note: preserve the bit concatenation order in the original code
                 IN = (
                         (A4 << 124) |
                         (A3 << 108) | (A2 << 40) | (A1 << 20) | (A0 << 16)
@@ -146,7 +146,7 @@ for i0 in range(5):
                     result_m *= HM_m[nibble]
                     OUT |= nibble << (124 - 4 * i)
 
-                # 比较并记录更小的值
+                # Compare and record the smaller value
                 log2_res = math.log2(result)
                 log2_res_m = math.log2(result_m)
                 M = 0
@@ -168,7 +168,7 @@ for i0 in range(5):
                     print(f"ANSWER_OUT = {ANSWER_OUT:032x}")
                     print(f"B_weights={[item[1] for item in (item0, item1, item2, item3, item4)]}")
 
-print("\n--- 最终结果 ---")
+print("\n--- Final Result ---")
 print(f"COUNT = {COUNT}")
 print(f"COUNT_m = {COUNT_m}")
 print(f"ANSWER_IN = {ANSWER_IN:032x}")

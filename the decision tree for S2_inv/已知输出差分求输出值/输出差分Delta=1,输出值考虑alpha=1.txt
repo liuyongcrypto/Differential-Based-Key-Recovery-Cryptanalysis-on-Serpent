@@ -1,0 +1,198 @@
+--- Tree for Delta=1, delta=5 ---
+Best tree so far
+Binary tree:
+1
+|   Constant = 0
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 1
+
+with costs: 1.875
+Binary tree:
+1
+|   Constant = 0
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 1
+
+Costs (Average guessing): 1.875
+0-Linear Structures: 0
+###################
+
+--- Tree for Delta=1, delta=7 ---
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 1
+|   |   |   |   Constant = 0
+|   |   |   Constant = 0
+|   Constant = 0
+
+with costs: 1.875
+Binary tree:
+1
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 1
+|   |   |   |   Constant = 0
+|   |   |   Constant = 0
+|   Constant = 0
+
+Costs (Average guessing): 1.875
+0-Linear Structures: 0
+###################
+
+--- Tree for Delta=1, delta=a ---
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 1
+|   |   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+with costs: 1.875
+Binary tree:
+1
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 1
+|   |   |   |   Constant = 0
+|   |   Constant = 0
+|   Constant = 0
+
+Costs (Average guessing): 1.875
+0-Linear Structures: 0
+###################
+
+--- Tree for Delta=1, delta=b ---
+Best tree so far
+Binary tree:
+1
+|   Constant = 0
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 1
+|   |   |   Constant = 0
+
+with costs: 1.875
+Binary tree:
+1
+|   Constant = 0
+|   2
+|   |   Constant = 0
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 1
+|   |   |   Constant = 0
+
+Costs (Average guessing): 1.875
+0-Linear Structures: 0
+###################
+
+--- Tree for Delta=1, delta=c ---
+Best tree so far
+Binary tree:
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 1
+|   |   |   |   Constant = 0
+|   |   |   Constant = 0
+|   |   Constant = 0
+
+with costs: 1.875
+Binary tree:
+1
+|   Constant = 0
+|   2
+|   |   4
+|   |   |   8
+|   |   |   |   Constant = 1
+|   |   |   |   Constant = 0
+|   |   |   Constant = 0
+|   |   Constant = 0
+
+Costs (Average guessing): 1.875
+0-Linear Structures: 0
+###################
+
+--- Tree for Delta=1, delta=e ---
+Best tree so far
+Binary tree:
+3
+|   Constant = 0
+|   6
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 0
+
+with costs: 1.75
+Binary tree:
+3
+|   Constant = 0
+|   6
+|   |   c
+|   |   |   Constant = 0
+|   |   |   Constant = 1
+|   |   Constant = 0
+
+Costs (Average guessing): 1.75
+0-Linear Structures: 0 f
+###################
+
+--- Tree for Delta=1, delta=f ---
+Best tree so far
+Binary tree:
+1
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 1
+|   |   Constant = 0
+|   Constant = 0
+
+with costs: 1.875
+Binary tree:
+1
+|   2
+|   |   4
+|   |   |   Constant = 0
+|   |   |   8
+|   |   |   |   Constant = 0
+|   |   |   |   Constant = 1
+|   |   Constant = 0
+|   Constant = 0
+
+Costs (Average guessing): 1.875
+0-Linear Structures: 0
+###################
